@@ -798,5 +798,13 @@
         "email": "abirkbeck2r@epa.gov",
         "gender": "Female",
         "job_title": "Payment Adjustment Coordinator"
+    },
+    {
+        "id": 101,
+        "first_name": "Priyank",
+        "last_name": "Bavarva",
+        "email": "priyank.bavarva@gmail.com",
+        "gender": "Male",
+        "job_title": "Software Developer"
     }
 ]
