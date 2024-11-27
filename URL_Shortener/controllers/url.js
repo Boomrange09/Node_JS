@@ -17,6 +17,11 @@ async function handleGenerateNewShortURL(req, res){
     return res.json({id : shortID });
 }
 
+async function handleRedirectURL(req, res){
+    const body = req.body;
+}
+
 module.exports = {
-    handleGenerateNewShortURL
+    handleGenerateNewShortURL,
+    handleRedirectURL
 }

@@ -11,6 +11,6 @@ connectMongoDB("mongodb+srv://priyank:MongoDB@users.b4b3a.mongodb.net/short_url?
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());
-app.use("/url", urlRoute);
+app.use("/", urlRoute);
 
 app.listen(PORT, () => console.log(`Server Started at PORT:${PORT} `));
